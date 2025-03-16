@@ -6,7 +6,7 @@ Welcome to my personal portfolio website repository! This project serves as a di
 
 🔗 **[View Live Portfolio](https://drive.google.com/file/d/16R78TRsl4HS1f_b0NK7p45q7OZhcOko0/view?usp=drive_link)** 
 
-![Portfolio Preview](https://github.com/Arax007/My-Portfolio/blob/main/Screenshot%202025-02-25%20040444.png)
+![Portfolio Preview](https://github.com/Arax007/My-Portfolio-Website/blob/main/assets/img/Protfolio%20Screenshort.png).
 
 ---
 
