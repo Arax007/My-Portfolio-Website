@@ -4,9 +4,9 @@ Welcome to my personal portfolio website repository! This project serves as a di
 
 ## 🌟 Live Demo
 
-🔗 **[View Live Portfolio](https://drive.google.com/file/d/16R78TRsl4HS1f_b0NK7p45q7OZhcOko0/view?usp=drive_link)** 
+🔗 **[View Live Portfolio](https://github.com/Arax007/My-Portfolio-Website/blob/main/assets/img/Portfolio%20Demo.gif)** 
 
-![Portfolio Preview](https://github.com/Arax007/My-Portfolio-Website/blob/main/assets/img/Protfolio%20Screenshort.png).
+![Portfolio Preview](https://github.com/Arax007/My-Portfolio-Website/blob/main/assets/img/Portfolio%20Demo.gif)
 
 ---
 
