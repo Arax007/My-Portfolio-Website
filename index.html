@@ -1,67 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="assets/style.css" />
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Icons Example</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- Header -->
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav__logo">Kumar Aryan</a>
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list grid">
-          <li class="nav__item"><a href="#home" class="nav__link active-link"><i class="uil uil-estate nav__icon"></i>Home</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link"><i class="uil uil-user nav__icon"></i>About</a></li>
-          <li class="nav__item"><a href="#skills" class="nav__link"><i class="uil uil-file-alt nav__icon"></i>Skills</a></li>
-          <li class="nav__item"><a href="#qualification" class="nav__link"><i class="uil uil-briefcase-alt nav__icon"></i>Qualification</a></li>
-          <li class="nav__item"><a href="#portfolio" class="nav__link"><i class="uil uil-scenery nav__icon"></i>Projects</a></li>
-          <li class="nav__item"><a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i>Contact-Me</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
 
-  <!-- Main -->
-  <main class="main">
-    <!-- Home Section -->
-    <section class="home section" id="home">
-      <div class="home__container container grid">
-        <div class="home__content grid">
-          <div class="home__social">
-            <a href="https://www.linkedin.com/in/kumar-aryan-318450208/" target="_blank" class="home__social-icon">
-              <i class="uil uil-linkedin-alt home__icon"></i>
-            </a>
-            <a href="https://github.com/Arax007?tab=repositories" target="_blank" class="home__social-icon">
-              <i class="uil uil-github-alt home__icon"></i>
-            </a>
-            <!-- LeetCode Icon -->
-            <a href="https://leetcode.com/u/Arax007/" target="_blank" class="home__social-icon">
-              <i class="uil uil-code-branch home__icon"></i>
-            </a>
-          </div>
+  <div class="social-icons">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/kumar-aryan-318450208/" target="_blank" class="social-icon linkedin">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
 
-          <div class="home__data">
-            <h1 class="home__title">Hi, I'm Kumar Aryan</h1>
-            <h3 class="home__subtitle">Computer Science Engineer</h3>
-            <p class="home__description">
-              Passionate Java Developer | Problem Solver | Turning ideas into scalable software solutions
-              <br><strong>BMS Institute of Technology And Management</strong>, Bangalore.
-            </p>
-            <a href="#contact" class="button button--flex">Contact me<i class="uil uil-message button__icon"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+    <!-- GitHub -->
+    <a href="https://github.com/Arax007?tab=repositories" target="_blank" class="social-icon github">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <!-- LeetCode -->
+    <a href="https://leetcode.com/u/Arax007/" target="_blank" class="social-icon leetcode">
+      <!-- SVG LeetCode Logo -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+        <path fill="#FFA116" d="M32 2C15.432 2 2 15.432 2 32s13.432 30 30 30 30-13.432 30-30S48.568 2 32 2zm0 56C17.664 58 6 46.336 6 32S17.664 6 32 6s26 11.664 26 26-11.664 26-26 26zm4.828-36.828l-4.242 4.242 4.242 4.242a2 2 0 11-2.828 2.828l-4.242-4.242-4.242 4.242a2 2 0 11-2.828-2.828l4.242-4.242-4.242-4.242a2 2 0 112.828-2.828l4.242 4.242 4.242-4.242a2 2 0 112.828 2.828z"/>
+      </svg>
+    </a>
+  </div>
+
 </body>
 </html>
